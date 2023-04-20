@@ -1,3 +1,5 @@
-Tribute for the late SA Hip-Hop SUPERSTAR
+Tribute for the late SA Hip-Hop Superstar 
 
-DEMO LINK](https://theodorah-lab.github.io/AKA-Tribute/)
+                     AKA 🕊
+
+<a href="https://theodorah-lab.github.io/AKA-Tribute/" target="_blank">DEMO LINK</a>
