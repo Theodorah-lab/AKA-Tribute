@@ -1,0 +1,171 @@
+body{
+       margin: 0;
+       background-color: black; 
+}
+
+/*===== Home page =====*/
+.homepage{
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+}
+.welcome{
+       display: flex;
+       justify-content: space-evenly;
+       width: 100%;
+}
+.Home {
+       width: 50%;
+       background-image: url('https://www.citizen.co.za/wp-content/uploads/2019/08/aka-e1565958633269.png');
+       background-repeat: no-repeat;
+       height: 100vh;
+       color: white; 
+       border: 2px solid black; 
+       background-position: top;    
+
+}
+
+.Home-text {
+       color: white;
+       width: 80%;
+}
+
+.Home-text  > h1 {
+       margin-top: 3px;
+       text-shadow: 1px 1px 1px yellow;    
+}
+  
+.Music {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       background-image: url('https://storage.googleapis.com/website-zkhiphani/uploads/2016/06/AKA-performs-at-BET-experience.jpg');
+       background-position: right;
+       background-repeat: no-repeat;
+       color: white;
+       
+}
+
+.Music-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-end;
+       height: 700px;
+       width: 700px;       
+       
+}
+          
+.Music-wrap {
+       height: 100%;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+
+}
+.Music-container p {
+       color: #f0f5f9;
+       width: 65%;
+       position: relative;
+       bottom: 200px;
+     
+}
+
+.Music-container h1 {
+       bottom: 200px;
+       right: 200px;
+       position: relative;
+       font-size: 35px;
+       text-shadow: 1px 1px 1px yellow;
+}
+
+.Death-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 23%;
+       height: 300px;
+       position: relative;
+       bottom: 400px;
+       color: white;
+}
+
+.Death-container h1 {
+       text-shadow: 1px 1px 1px yellow;
+}
+
+.Song-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;  
+       align-items: center;
+       padding-left: 150px;
+       gap: 25px;
+       right: 50px;
+       max-width: 80%;
+       height: 350px;
+       overflow: scroll;
+       overflow-x: hidden;  
+          
+   }
+   
+   .Song h2 {
+       font-size: 15px;
+   }
+   
+   .Song-container::-webkit-scrollbar {
+       height: 5px;
+   }
+   
+   /*====== Track =====*/
+   .Song-container::-webkit-scrollbar-track {
+       box-shadow: inset 0 0 5px yellow;
+       border-radius: 8px;
+
+   }
+   
+   /*===== Handle =====*/
+   .Song-container::-webkit-scrollbar-thumb {
+       background-color: white;
+       border-radius: 7px;
+   }
+   
+   .Song-container .Song {
+       height: 350px;
+       width: 400px;
+       background: white;
+       backdrop-filter: blur(50px);
+   }
+   
+   .Songs {
+       max-width: 70%;
+       position: absolute;
+       right: 4px; 
+   }
+   .Song {
+       padding: 3px;
+       background-color: black;
+       backdrop-filter: blur(20px);
+       box-shadow: 1px 1px 1px 1px whitesmoke;
+       color: black;
+       transition: 0.4s all;       
+   }
+
+.Song > img{
+       width: 100%;
+       height: 70%;
+
+} 
+   /*===== Footer =====*/
+   
+   footer {
+       position: absolute;
+       color: #ffff;
+       top: 1140px;
+       right: 650px;
+   }
